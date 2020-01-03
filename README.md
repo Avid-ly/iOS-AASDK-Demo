@@ -3,9 +3,6 @@
 
 # 一、工程接入
 ## 1.1 获取SDK包 
-1.首先从github:(https://github.com/AvidlyGit/AvidlyAccountSdk_IOS)
-上获取工程，在目录:(AvidlyAccountSdk_IOS/AvidlyAccountDemo/AvidlyAccountDemo/)中找到AccountSDK和FacebookSDK
-
 AccountSDK目录包含如下文件：
 * AASAccount.framework
 * AASAccount.bundle
@@ -13,7 +10,7 @@ AccountSDK目录包含如下文件：
 FacebookSDK目录包含如下文件：
 * FBSDKLoginKit.framework
 * FBSDKCoreKit.framework
-* Bolts.framework
+
 
 ## 1.2 Xcode工程添加SDK包
 1. 添加AccountSDK和Facebook的SDK
