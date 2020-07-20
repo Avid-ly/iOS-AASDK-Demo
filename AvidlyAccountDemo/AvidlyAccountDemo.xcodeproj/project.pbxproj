@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAFC135124C53B69004D4BF7 /* AASAccountSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAFC134424C53B69004D4BF7 /* AASAccountSDK.bundle */; };
+		AAFC135224C53B69004D4BF7 /* AASAccount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC134524C53B69004D4BF7 /* AASAccount.framework */; };
+		AAFC135324C53B69004D4BF7 /* version.md in Resources */ = {isa = PBXBuildFile; fileRef = AAFC134624C53B69004D4BF7 /* version.md */; };
+		AAFC135524C53B69004D4BF7 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAFC134B24C53B69004D4BF7 /* GoogleSignIn.bundle */; };
+		AAFC135624C53B69004D4BF7 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC134C24C53B69004D4BF7 /* GoogleSignInDependencies.framework */; };
+		AAFC135724C53B69004D4BF7 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC134D24C53B69004D4BF7 /* GoogleSignIn.framework */; };
+		AAFC135824C53B69004D4BF7 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC134F24C53B69004D4BF7 /* FBSDKLoginKit.framework */; };
+		AAFC135924C53B69004D4BF7 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC135024C53B69004D4BF7 /* FBSDKCoreKit.framework */; };
 		BD2669CD222D16CB00620557 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2669CC222D16CB00620557 /* AppDelegate.m */; };
 		BD2669D0222D16CB00620557 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2669CF222D16CB00620557 /* ViewController.m */; };
 		BD2669D3222D16CB00620557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2669D1222D16CB00620557 /* Main.storyboard */; };
@@ -14,11 +22,7 @@
 		BD2669D8222D16CD00620557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2669D6222D16CD00620557 /* LaunchScreen.storyboard */; };
 		BD2669DB222D16CD00620557 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2669DA222D16CD00620557 /* main.m */; };
 		BD2669FD222D179900620557 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2669FC222D179900620557 /* AdSupport.framework */; };
-		BD4DF3EB23AB172F00410B7E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4DF3E923AB172F00410B7E /* FBSDKLoginKit.framework */; };
-		BD4DF3EC23AB172F00410B7E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4DF3EA23AB172F00410B7E /* FBSDKCoreKit.framework */; };
 		BD4DF3EE23AB175600410B7E /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4DF3ED23AB175600410B7E /* GameKit.framework */; };
-		BDD455332321055000235272 /* AASAccount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD455322321055000235272 /* AASAccount.framework */; };
-		BDF8860623506B8900A75A91 /* AASAccountSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BDF8860523506B8900A75A91 /* AASAccountSDK.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AAFC134424C53B69004D4BF7 /* AASAccountSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AASAccountSDK.bundle; sourceTree = "<group>"; };
+		AAFC134524C53B69004D4BF7 /* AASAccount.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AASAccount.framework; sourceTree = "<group>"; };
+		AAFC134624C53B69004D4BF7 /* version.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = version.md; sourceTree = "<group>"; };
+		AAFC134B24C53B69004D4BF7 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		AAFC134C24C53B69004D4BF7 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		AAFC134D24C53B69004D4BF7 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		AAFC134F24C53B69004D4BF7 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		AAFC135024C53B69004D4BF7 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		BD2669C8222D16CB00620557 /* AvidlyAccountDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvidlyAccountDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2669CB222D16CB00620557 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD2669CC222D16CB00620557 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,11 +60,7 @@
 		BD266A5722326E8300620557 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		BD266A5822326EDE00620557 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		BD266A5922326EDE00620557 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		BD4DF3E923AB172F00410B7E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		BD4DF3EA23AB172F00410B7E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		BD4DF3ED23AB175600410B7E /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
-		BDD455322321055000235272 /* AASAccount.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AASAccount.framework; sourceTree = "<group>"; };
-		BDF8860523506B8900A75A91 /* AASAccountSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AASAccountSDK.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +69,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD2669FD222D179900620557 /* AdSupport.framework in Frameworks */,
-				BD4DF3EC23AB172F00410B7E /* FBSDKCoreKit.framework in Frameworks */,
-				BDD455332321055000235272 /* AASAccount.framework in Frameworks */,
-				BD4DF3EB23AB172F00410B7E /* FBSDKLoginKit.framework in Frameworks */,
 				BD4DF3EE23AB175600410B7E /* GameKit.framework in Frameworks */,
+				AAFC135824C53B69004D4BF7 /* FBSDKLoginKit.framework in Frameworks */,
+				AAFC135624C53B69004D4BF7 /* GoogleSignInDependencies.framework in Frameworks */,
+				AAFC135924C53B69004D4BF7 /* FBSDKCoreKit.framework in Frameworks */,
+				AAFC135224C53B69004D4BF7 /* AASAccount.framework in Frameworks */,
+				AAFC135724C53B69004D4BF7 /* GoogleSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,11 +88,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AAFC134324C53B69004D4BF7 /* AASAccount_xcode_1009_2 */ = {
+			isa = PBXGroup;
+			children = (
+				AAFC134424C53B69004D4BF7 /* AASAccountSDK.bundle */,
+				AAFC134524C53B69004D4BF7 /* AASAccount.framework */,
+				AAFC134624C53B69004D4BF7 /* version.md */,
+			);
+			path = AASAccount_xcode_1009_2;
+			sourceTree = "<group>";
+		};
+		AAFC134724C53B69004D4BF7 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				AAFC134A24C53B69004D4BF7 /* GoogleSDK-5.0.2 */,
+				AAFC134E24C53B69004D4BF7 /* Facebook-5.6.0 */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		AAFC134A24C53B69004D4BF7 /* GoogleSDK-5.0.2 */ = {
+			isa = PBXGroup;
+			children = (
+				AAFC134B24C53B69004D4BF7 /* GoogleSignIn.bundle */,
+				AAFC134C24C53B69004D4BF7 /* GoogleSignInDependencies.framework */,
+				AAFC134D24C53B69004D4BF7 /* GoogleSignIn.framework */,
+			);
+			path = "GoogleSDK-5.0.2";
+			sourceTree = "<group>";
+		};
+		AAFC134E24C53B69004D4BF7 /* Facebook-5.6.0 */ = {
+			isa = PBXGroup;
+			children = (
+				AAFC134F24C53B69004D4BF7 /* FBSDKLoginKit.framework */,
+				AAFC135024C53B69004D4BF7 /* FBSDKCoreKit.framework */,
+			);
+			path = "Facebook-5.6.0";
+			sourceTree = "<group>";
+		};
 		BD2669BF222D16CB00620557 = {
 			isa = PBXGroup;
 			children = (
-				BD4DF3E823AB172F00410B7E /* Facebook-5.6.0 */,
-				BD2669F3222D176A00620557 /* AccountSDK */,
+				AAFC134724C53B69004D4BF7 /* 3rd */,
+				AAFC134324C53B69004D4BF7 /* AASAccount_xcode_1009_2 */,
 				BD2669CA222D16CB00620557 /* AvidlyAccountDemo */,
 				BD2669C9222D16CB00620557 /* Products */,
 				BD2669FB222D179900620557 /* Frameworks */,
@@ -114,16 +162,6 @@
 			path = AvidlyAccountDemo;
 			sourceTree = "<group>";
 		};
-		BD2669F3222D176A00620557 /* AccountSDK */ = {
-			isa = PBXGroup;
-			children = (
-				BDF8860523506B8900A75A91 /* AASAccountSDK.bundle */,
-				BDD455322321055000235272 /* AASAccount.framework */,
-			);
-			name = AccountSDK;
-			path = AvidlyAccountDemo/AccountSDK;
-			sourceTree = "<group>";
-		};
 		BD2669FB222D179900620557 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,16 +169,6 @@
 				BD2669FC222D179900620557 /* AdSupport.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BD4DF3E823AB172F00410B7E /* Facebook-5.6.0 */ = {
-			isa = PBXGroup;
-			children = (
-				BD4DF3E923AB172F00410B7E /* FBSDKLoginKit.framework */,
-				BD4DF3EA23AB172F00410B7E /* FBSDKCoreKit.framework */,
-			);
-			name = "Facebook-5.6.0";
-			path = "AvidlyAccountDemo/Facebook-5.6.0";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,10 +258,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF8860623506B8900A75A91 /* AASAccountSDK.bundle in Resources */,
+				AAFC135124C53B69004D4BF7 /* AASAccountSDK.bundle in Resources */,
 				BD2669D8222D16CD00620557 /* LaunchScreen.storyboard in Resources */,
 				BD2669D5222D16CD00620557 /* Assets.xcassets in Resources */,
+				AAFC135324C53B69004D4BF7 /* version.md in Resources */,
 				BD2669D3222D16CB00620557 /* Main.storyboard in Resources */,
+				AAFC135524C53B69004D4BF7 /* GoogleSignIn.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,9 +452,9 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/AvidlyAccountDemo/FacebookSDK",
-					"$(PROJECT_DIR)/AvidlyAccountDemo/AccountSDK",
-					"$(PROJECT_DIR)/AvidlyAccountDemo/Facebook-5.6.0",
+					"$(PROJECT_DIR)/AASAccount_xcode_1009_2",
+					"$(PROJECT_DIR)/3rd/GoogleSDK-5.0.2",
+					"$(PROJECT_DIR)/3rd/Facebook-5.6.0",
 				);
 				INFOPLIST_FILE = AvidlyAccountDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -454,9 +484,9 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/AvidlyAccountDemo/FacebookSDK",
-					"$(PROJECT_DIR)/AvidlyAccountDemo/AccountSDK",
-					"$(PROJECT_DIR)/AvidlyAccountDemo/Facebook-5.6.0",
+					"$(PROJECT_DIR)/AASAccount_xcode_1009_2",
+					"$(PROJECT_DIR)/3rd/GoogleSDK-5.0.2",
+					"$(PROJECT_DIR)/3rd/Facebook-5.6.0",
 				);
 				INFOPLIST_FILE = AvidlyAccountDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
