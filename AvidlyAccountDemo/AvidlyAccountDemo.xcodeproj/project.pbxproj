@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AAFC135124C53B69004D4BF7 /* AASAccountSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAFC134424C53B69004D4BF7 /* AASAccountSDK.bundle */; };
-		AAFC135224C53B69004D4BF7 /* AASAccount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC134524C53B69004D4BF7 /* AASAccount.framework */; };
-		AAFC135324C53B69004D4BF7 /* version.md in Resources */ = {isa = PBXBuildFile; fileRef = AAFC134624C53B69004D4BF7 /* version.md */; };
+		AA902414253D451A004EDBDE /* AASAccountSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA902411253D451A004EDBDE /* AASAccountSDK.bundle */; };
+		AA902415253D451A004EDBDE /* AASAccount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA902412253D451A004EDBDE /* AASAccount.framework */; };
+		AA902416253D451A004EDBDE /* version.md in Resources */ = {isa = PBXBuildFile; fileRef = AA902413253D451A004EDBDE /* version.md */; };
 		AAFC135524C53B69004D4BF7 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAFC134B24C53B69004D4BF7 /* GoogleSignIn.bundle */; };
 		AAFC135624C53B69004D4BF7 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC134C24C53B69004D4BF7 /* GoogleSignInDependencies.framework */; };
 		AAFC135724C53B69004D4BF7 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC134D24C53B69004D4BF7 /* GoogleSignIn.framework */; };
@@ -25,20 +25,14 @@
 		BD4DF3EE23AB175600410B7E /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4DF3ED23AB175600410B7E /* GameKit.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BD2669E1222D16CE00620557 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BD2669C0222D16CB00620557 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BD2669C7222D16CB00620557;
-			remoteInfo = AvidlyAccountDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		AAFC134424C53B69004D4BF7 /* AASAccountSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AASAccountSDK.bundle; sourceTree = "<group>"; };
-		AAFC134524C53B69004D4BF7 /* AASAccount.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AASAccount.framework; sourceTree = "<group>"; };
-		AAFC134624C53B69004D4BF7 /* version.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = version.md; sourceTree = "<group>"; };
+		AA3255DD2521BB9E0030E4A5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		AA3255DE2521BB9E0030E4A5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		AA3255DF2521BBA40030E4A5 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Main.strings; sourceTree = "<group>"; };
+		AA3255E02521BBA50030E4A5 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		AA902411253D451A004EDBDE /* AASAccountSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AASAccountSDK.bundle; sourceTree = "<group>"; };
+		AA902412253D451A004EDBDE /* AASAccount.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AASAccount.framework; sourceTree = "<group>"; };
+		AA902413253D451A004EDBDE /* version.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = version.md; sourceTree = "<group>"; };
 		AAFC134B24C53B69004D4BF7 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
 		AAFC134C24C53B69004D4BF7 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
 		AAFC134D24C53B69004D4BF7 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
@@ -54,7 +48,6 @@
 		BD2669D7222D16CD00620557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD2669D9222D16CD00620557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD2669DA222D16CD00620557 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BD2669E0222D16CE00620557 /* AvidlyAccountDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvidlyAccountDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2669FC222D179900620557 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		BD266A5622326E8200620557 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		BD266A5722326E8300620557 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
@@ -69,33 +62,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD2669FD222D179900620557 /* AdSupport.framework in Frameworks */,
+				AA902415253D451A004EDBDE /* AASAccount.framework in Frameworks */,
 				BD4DF3EE23AB175600410B7E /* GameKit.framework in Frameworks */,
 				AAFC135824C53B69004D4BF7 /* FBSDKLoginKit.framework in Frameworks */,
 				AAFC135624C53B69004D4BF7 /* GoogleSignInDependencies.framework in Frameworks */,
 				AAFC135924C53B69004D4BF7 /* FBSDKCoreKit.framework in Frameworks */,
-				AAFC135224C53B69004D4BF7 /* AASAccount.framework in Frameworks */,
 				AAFC135724C53B69004D4BF7 /* GoogleSignIn.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD2669DD222D16CE00620557 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AAFC134324C53B69004D4BF7 /* AASAccount_xcode_1009_2 */ = {
+		AA902410253D451A004EDBDE /* AASAccount_xcode_1011_3 */ = {
 			isa = PBXGroup;
 			children = (
-				AAFC134424C53B69004D4BF7 /* AASAccountSDK.bundle */,
-				AAFC134524C53B69004D4BF7 /* AASAccount.framework */,
-				AAFC134624C53B69004D4BF7 /* version.md */,
+				AA902411253D451A004EDBDE /* AASAccountSDK.bundle */,
+				AA902412253D451A004EDBDE /* AASAccount.framework */,
+				AA902413253D451A004EDBDE /* version.md */,
 			);
-			path = AASAccount_xcode_1009_2;
+			path = AASAccount_xcode_1011_3;
 			sourceTree = "<group>";
 		};
 		AAFC134724C53B69004D4BF7 /* 3rd */ = {
@@ -129,8 +115,8 @@
 		BD2669BF222D16CB00620557 = {
 			isa = PBXGroup;
 			children = (
+				AA902410253D451A004EDBDE /* AASAccount_xcode_1011_3 */,
 				AAFC134724C53B69004D4BF7 /* 3rd */,
-				AAFC134324C53B69004D4BF7 /* AASAccount_xcode_1009_2 */,
 				BD2669CA222D16CB00620557 /* AvidlyAccountDemo */,
 				BD2669C9222D16CB00620557 /* Products */,
 				BD2669FB222D179900620557 /* Frameworks */,
@@ -141,7 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				BD2669C8222D16CB00620557 /* AvidlyAccountDemo.app */,
-				BD2669E0222D16CE00620557 /* AvidlyAccountDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -191,24 +176,6 @@
 			productReference = BD2669C8222D16CB00620557 /* AvidlyAccountDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BD2669DF222D16CE00620557 /* AvidlyAccountDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BD2669EC222D16CE00620557 /* Build configuration list for PBXNativeTarget "AvidlyAccountDemoUITests" */;
-			buildPhases = (
-				BD2669DC222D16CE00620557 /* Sources */,
-				BD2669DD222D16CE00620557 /* Frameworks */,
-				BD2669DE222D16CE00620557 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BD2669E2222D16CE00620557 /* PBXTargetDependency */,
-			);
-			name = AvidlyAccountDemoUITests;
-			productName = AvidlyAccountDemoUITests;
-			productReference = BD2669E0222D16CE00620557 /* AvidlyAccountDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -226,10 +193,6 @@
 							};
 						};
 					};
-					BD2669DF222D16CE00620557 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = BD2669C7222D16CB00620557;
-					};
 				};
 			};
 			buildConfigurationList = BD2669C3222D16CB00620557 /* Build configuration list for PBXProject "AvidlyAccountDemo" */;
@@ -241,6 +204,8 @@
 				Base,
 				"zh-Hans",
 				"zh-Hant",
+				de,
+				th,
 			);
 			mainGroup = BD2669BF222D16CB00620557;
 			productRefGroup = BD2669C9222D16CB00620557 /* Products */;
@@ -248,7 +213,6 @@
 			projectRoot = "";
 			targets = (
 				BD2669C7222D16CB00620557 /* AvidlyAccountDemo */,
-				BD2669DF222D16CE00620557 /* AvidlyAccountDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,19 +222,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAFC135124C53B69004D4BF7 /* AASAccountSDK.bundle in Resources */,
 				BD2669D8222D16CD00620557 /* LaunchScreen.storyboard in Resources */,
+				AA902416253D451A004EDBDE /* version.md in Resources */,
+				AA902414253D451A004EDBDE /* AASAccountSDK.bundle in Resources */,
 				BD2669D5222D16CD00620557 /* Assets.xcassets in Resources */,
-				AAFC135324C53B69004D4BF7 /* version.md in Resources */,
 				BD2669D3222D16CB00620557 /* Main.storyboard in Resources */,
 				AAFC135524C53B69004D4BF7 /* GoogleSignIn.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD2669DE222D16CE00620557 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,22 +244,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD2669DC222D16CE00620557 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BD2669E2222D16CE00620557 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BD2669C7222D16CB00620557 /* AvidlyAccountDemo */;
-			targetProxy = BD2669E1222D16CE00620557 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BD2669D1222D16CB00620557 /* Main.storyboard */ = {
@@ -311,6 +253,8 @@
 				BD2669D2222D16CB00620557 /* Base */,
 				BD266A5622326E8200620557 /* zh-Hans */,
 				BD266A5822326EDE00620557 /* zh-Hant */,
+				AA3255DD2521BB9E0030E4A5 /* de */,
+				AA3255DF2521BBA40030E4A5 /* th */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -321,6 +265,8 @@
 				BD2669D7222D16CD00620557 /* Base */,
 				BD266A5722326E8300620557 /* zh-Hans */,
 				BD266A5922326EDE00620557 /* zh-Hant */,
+				AA3255DE2521BB9E0030E4A5 /* de */,
+				AA3255E02521BBA50030E4A5 /* th */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -455,6 +401,8 @@
 					"$(PROJECT_DIR)/AASAccount_xcode_1009_2",
 					"$(PROJECT_DIR)/3rd/GoogleSDK-5.0.2",
 					"$(PROJECT_DIR)/3rd/Facebook-5.6.0",
+					"$(PROJECT_DIR)/AASAccount_xcode_1011_1",
+					"$(PROJECT_DIR)/AASAccount_xcode_1011_3",
 				);
 				INFOPLIST_FILE = AvidlyAccountDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -487,6 +435,8 @@
 					"$(PROJECT_DIR)/AASAccount_xcode_1009_2",
 					"$(PROJECT_DIR)/3rd/GoogleSDK-5.0.2",
 					"$(PROJECT_DIR)/3rd/Facebook-5.6.0",
+					"$(PROJECT_DIR)/AASAccount_xcode_1011_1",
+					"$(PROJECT_DIR)/AASAccount_xcode_1011_3",
 				);
 				INFOPLIST_FILE = AvidlyAccountDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -503,42 +453,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = com.upltv.upsdk_rd_Development_Profile;
 				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		BD2669ED222D16CE00620557 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HCJK3Y243A;
-				INFOPLIST_FILE = AvidlyAccountDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.avidly.accountsdk.demo1.AvidlyAccountDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AvidlyAccountDemo;
-			};
-			name = Debug;
-		};
-		BD2669EE222D16CE00620557 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HCJK3Y243A;
-				INFOPLIST_FILE = AvidlyAccountDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.avidly.accountsdk.demo1.AvidlyAccountDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AvidlyAccountDemo;
 			};
 			name = Release;
 		};
@@ -559,15 +473,6 @@
 			buildConfigurations = (
 				BD2669EA222D16CE00620557 /* Debug */,
 				BD2669EB222D16CE00620557 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BD2669EC222D16CE00620557 /* Build configuration list for PBXNativeTarget "AvidlyAccountDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BD2669ED222D16CE00620557 /* Debug */,
-				BD2669EE222D16CE00620557 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

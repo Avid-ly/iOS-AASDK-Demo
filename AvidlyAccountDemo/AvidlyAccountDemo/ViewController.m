@@ -73,7 +73,11 @@
     /* 第一步 初始化AccountSDK
      @param productId 产品ID，需要找项目经理获取
      */
-    [AASAccountSDK initSDK:_pdtID.text];
+    NSString *pid = @"100052";
+    if (_pdtID.text != nil && ![_pdtID.text isEqualToString:@""]) {
+        pid = _pdtID.text;
+    }
+    [AASAccountSDK initSDK:pid];
     [self->_initButton setTitle:@"初始化成功" forState:UIControlStateNormal];
     self->_initButton.backgroundColor = [UIColor greenColor];
     self->_initButton.userInteractionEnabled = NO;
