@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AABD04B62540116200512D0C /* AASAccountSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AABD04B32540116200512D0C /* AASAccountSDK.bundle */; };
-		AABD04B72540116200512D0C /* AASAccount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABD04B42540116200512D0C /* AASAccount.framework */; };
+		AA4B4DBF2558F43D00A9B051 /* AASAccountSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA4B4DBC2558F43D00A9B051 /* AASAccountSDK.bundle */; };
+		AA4B4DC02558F43D00A9B051 /* AASAccount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4B4DBD2558F43D00A9B051 /* AASAccount.framework */; };
+		AA4B4DC12558F43D00A9B051 /* version.md in Resources */ = {isa = PBXBuildFile; fileRef = AA4B4DBE2558F43D00A9B051 /* version.md */; };
 		AAFC135524C53B69004D4BF7 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAFC134B24C53B69004D4BF7 /* GoogleSignIn.bundle */; };
 		AAFC135624C53B69004D4BF7 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC134C24C53B69004D4BF7 /* GoogleSignInDependencies.framework */; };
 		AAFC135724C53B69004D4BF7 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC134D24C53B69004D4BF7 /* GoogleSignIn.framework */; };
@@ -29,8 +30,9 @@
 		AA3255DE2521BB9E0030E4A5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		AA3255DF2521BBA40030E4A5 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Main.strings; sourceTree = "<group>"; };
 		AA3255E02521BBA50030E4A5 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		AABD04B32540116200512D0C /* AASAccountSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AASAccountSDK.bundle; sourceTree = "<group>"; };
-		AABD04B42540116200512D0C /* AASAccount.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AASAccount.framework; sourceTree = "<group>"; };
+		AA4B4DBC2558F43D00A9B051 /* AASAccountSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AASAccountSDK.bundle; sourceTree = "<group>"; };
+		AA4B4DBD2558F43D00A9B051 /* AASAccount.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AASAccount.framework; sourceTree = "<group>"; };
+		AA4B4DBE2558F43D00A9B051 /* version.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = version.md; sourceTree = "<group>"; };
 		AAFC134B24C53B69004D4BF7 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
 		AAFC134C24C53B69004D4BF7 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
 		AAFC134D24C53B69004D4BF7 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
@@ -60,7 +62,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD2669FD222D179900620557 /* AdSupport.framework in Frameworks */,
-				AABD04B72540116200512D0C /* AASAccount.framework in Frameworks */,
+				AA4B4DC02558F43D00A9B051 /* AASAccount.framework in Frameworks */,
 				BD4DF3EE23AB175600410B7E /* GameKit.framework in Frameworks */,
 				AAFC135824C53B69004D4BF7 /* FBSDKLoginKit.framework in Frameworks */,
 				AAFC135624C53B69004D4BF7 /* GoogleSignInDependencies.framework in Frameworks */,
@@ -72,13 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AABD04B22540116200512D0C /* AASAccount_xcode_1012_1 */ = {
+		AA4B4DBB2558F43D00A9B051 /* AASAccount_xcode_1013_1 */ = {
 			isa = PBXGroup;
 			children = (
-				AABD04B32540116200512D0C /* AASAccountSDK.bundle */,
-				AABD04B42540116200512D0C /* AASAccount.framework */,
+				AA4B4DBC2558F43D00A9B051 /* AASAccountSDK.bundle */,
+				AA4B4DBD2558F43D00A9B051 /* AASAccount.framework */,
+				AA4B4DBE2558F43D00A9B051 /* version.md */,
 			);
-			path = AASAccount_xcode_1012_1;
+			path = AASAccount_xcode_1013_1;
 			sourceTree = "<group>";
 		};
 		AAFC134724C53B69004D4BF7 /* 3rd */ = {
@@ -112,7 +115,7 @@
 		BD2669BF222D16CB00620557 = {
 			isa = PBXGroup;
 			children = (
-				AABD04B22540116200512D0C /* AASAccount_xcode_1012_1 */,
+				AA4B4DBB2558F43D00A9B051 /* AASAccount_xcode_1013_1 */,
 				AAFC134724C53B69004D4BF7 /* 3rd */,
 				BD2669CA222D16CB00620557 /* AvidlyAccountDemo */,
 				BD2669C9222D16CB00620557 /* Products */,
@@ -220,7 +223,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD2669D8222D16CD00620557 /* LaunchScreen.storyboard in Resources */,
-				AABD04B62540116200512D0C /* AASAccountSDK.bundle in Resources */,
+				AA4B4DC12558F43D00A9B051 /* version.md in Resources */,
+				AA4B4DBF2558F43D00A9B051 /* AASAccountSDK.bundle in Resources */,
 				BD2669D5222D16CD00620557 /* Assets.xcassets in Resources */,
 				BD2669D3222D16CB00620557 /* Main.storyboard in Resources */,
 				AAFC135524C53B69004D4BF7 /* GoogleSignIn.bundle in Resources */,
@@ -400,6 +404,7 @@
 					"$(PROJECT_DIR)/AASAccount_xcode_1011_1",
 					"$(PROJECT_DIR)/AASAccount_xcode_1011_3",
 					"$(PROJECT_DIR)/AASAccount_xcode_1012_1",
+					"$(PROJECT_DIR)/AASAccount_xcode_1013_1",
 				);
 				INFOPLIST_FILE = AvidlyAccountDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -411,6 +416,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AvidlyAccountDemo/AccountSDK",
 				);
+				MARKETING_VERSION = 1.0.13;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.upltv.upsdk.rd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,6 +441,7 @@
 					"$(PROJECT_DIR)/AASAccount_xcode_1011_1",
 					"$(PROJECT_DIR)/AASAccount_xcode_1011_3",
 					"$(PROJECT_DIR)/AASAccount_xcode_1012_1",
+					"$(PROJECT_DIR)/AASAccount_xcode_1013_1",
 				);
 				INFOPLIST_FILE = AvidlyAccountDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -446,6 +453,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AvidlyAccountDemo/AccountSDK",
 				);
+				MARKETING_VERSION = 1.0.13;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.upltv.upsdk.rd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
