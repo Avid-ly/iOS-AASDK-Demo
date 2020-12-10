@@ -12,9 +12,9 @@
 		AA5A6097256CBE870031CEAA /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5A6096256CBE870031CEAA /* File.swift */; };
 		AA5A609F256CD9670031CEAA /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A6092256CBE670031CEAA /* Accelerate.framework */; };
 		AA5A60A2256CD9FA0031CEAA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A609B256CC06D0031CEAA /* libc++.tbd */; };
-		AAC6650B2582265E00F6AFB3 /* AASAccountSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAC665082582265E00F6AFB3 /* AASAccountSDK.bundle */; };
-		AAC6650C2582265E00F6AFB3 /* AASAccount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC665092582265E00F6AFB3 /* AASAccount.framework */; };
-		AAC6650D2582265E00F6AFB3 /* version.md in Resources */ = {isa = PBXBuildFile; fileRef = AAC6650A2582265E00F6AFB3 /* version.md */; };
+		AAC6651525822C9500F6AFB3 /* AASAccountSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAC6651225822C9500F6AFB3 /* AASAccountSDK.bundle */; };
+		AAC6651625822C9500F6AFB3 /* AASAccount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC6651325822C9500F6AFB3 /* AASAccount.framework */; };
+		AAC6651725822C9500F6AFB3 /* version.md in Resources */ = {isa = PBXBuildFile; fileRef = AAC6651425822C9500F6AFB3 /* version.md */; };
 		AAFC135524C53B69004D4BF7 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAFC134B24C53B69004D4BF7 /* GoogleSignIn.bundle */; };
 		AAFC135624C53B69004D4BF7 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC134C24C53B69004D4BF7 /* GoogleSignInDependencies.framework */; };
 		AAFC135724C53B69004D4BF7 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC134D24C53B69004D4BF7 /* GoogleSignIn.framework */; };
@@ -40,9 +40,9 @@
 		AA5A6095256CBE870031CEAA /* AvidlyAccountDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AvidlyAccountDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		AA5A6096256CBE870031CEAA /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		AA5A609B256CC06D0031CEAA /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		AAC665082582265E00F6AFB3 /* AASAccountSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AASAccountSDK.bundle; sourceTree = "<group>"; };
-		AAC665092582265E00F6AFB3 /* AASAccount.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AASAccount.framework; sourceTree = "<group>"; };
-		AAC6650A2582265E00F6AFB3 /* version.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = version.md; sourceTree = "<group>"; };
+		AAC6651225822C9500F6AFB3 /* AASAccountSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AASAccountSDK.bundle; sourceTree = "<group>"; };
+		AAC6651325822C9500F6AFB3 /* AASAccount.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AASAccount.framework; sourceTree = "<group>"; };
+		AAC6651425822C9500F6AFB3 /* version.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = version.md; sourceTree = "<group>"; };
 		AAFC134B24C53B69004D4BF7 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
 		AAFC134C24C53B69004D4BF7 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
 		AAFC134D24C53B69004D4BF7 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 			files = (
 				AA5A60A2256CD9FA0031CEAA /* libc++.tbd in Frameworks */,
 				AA5A609F256CD9670031CEAA /* Accelerate.framework in Frameworks */,
-				AAC6650C2582265E00F6AFB3 /* AASAccount.framework in Frameworks */,
+				AAC6651625822C9500F6AFB3 /* AASAccount.framework in Frameworks */,
 				BD2669FD222D179900620557 /* AdSupport.framework in Frameworks */,
 				AA5A6083256CBD5B0031CEAA /* FBSDKCoreKit.framework in Frameworks */,
 				BD4DF3EE23AB175600410B7E /* GameKit.framework in Frameworks */,
@@ -93,14 +93,14 @@
 			path = "Facebook-8.1.0";
 			sourceTree = "<group>";
 		};
-		AAC665072582265E00F6AFB3 /* AASAccount_xcode_1005_1 */ = {
+		AAC6651125822C9500F6AFB3 /* AASAccount_xcode_1015_1 */ = {
 			isa = PBXGroup;
 			children = (
-				AAC665082582265E00F6AFB3 /* AASAccountSDK.bundle */,
-				AAC665092582265E00F6AFB3 /* AASAccount.framework */,
-				AAC6650A2582265E00F6AFB3 /* version.md */,
+				AAC6651225822C9500F6AFB3 /* AASAccountSDK.bundle */,
+				AAC6651325822C9500F6AFB3 /* AASAccount.framework */,
+				AAC6651425822C9500F6AFB3 /* version.md */,
 			);
-			path = AASAccount_xcode_1005_1;
+			path = AASAccount_xcode_1015_1;
 			sourceTree = "<group>";
 		};
 		AAFC134724C53B69004D4BF7 /* 3rd */ = {
@@ -125,7 +125,7 @@
 		BD2669BF222D16CB00620557 = {
 			isa = PBXGroup;
 			children = (
-				AAC665072582265E00F6AFB3 /* AASAccount_xcode_1005_1 */,
+				AAC6651125822C9500F6AFB3 /* AASAccount_xcode_1015_1 */,
 				AAFC134724C53B69004D4BF7 /* 3rd */,
 				BD2669CA222D16CB00620557 /* AvidlyAccountDemo */,
 				BD2669C9222D16CB00620557 /* Products */,
@@ -239,8 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD2669D8222D16CD00620557 /* LaunchScreen.storyboard in Resources */,
-				AAC6650D2582265E00F6AFB3 /* version.md in Resources */,
-				AAC6650B2582265E00F6AFB3 /* AASAccountSDK.bundle in Resources */,
+				AAC6651725822C9500F6AFB3 /* version.md in Resources */,
+				AAC6651525822C9500F6AFB3 /* AASAccountSDK.bundle in Resources */,
 				BD2669D5222D16CD00620557 /* Assets.xcassets in Resources */,
 				BD2669D3222D16CB00620557 /* Main.storyboard in Resources */,
 				AAFC135524C53B69004D4BF7 /* GoogleSignIn.bundle in Resources */,
@@ -421,6 +421,7 @@
 					"$(PROJECT_DIR)/3rd/Facebook-8.1.0",
 					"$(PROJECT_DIR)/AASAccount_xcode_1014_1",
 					"$(PROJECT_DIR)/AASAccount_xcode_1005_1",
+					"$(PROJECT_DIR)/AASAccount_xcode_1015_1",
 				);
 				INFOPLIST_FILE = AvidlyAccountDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -461,6 +462,7 @@
 					"$(PROJECT_DIR)/3rd/Facebook-8.1.0",
 					"$(PROJECT_DIR)/AASAccount_xcode_1014_1",
 					"$(PROJECT_DIR)/AASAccount_xcode_1005_1",
+					"$(PROJECT_DIR)/AASAccount_xcode_1015_1",
 				);
 				INFOPLIST_FILE = AvidlyAccountDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
