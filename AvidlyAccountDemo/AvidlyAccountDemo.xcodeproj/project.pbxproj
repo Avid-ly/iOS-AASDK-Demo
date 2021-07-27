@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA3C5A1725C157720004ACD7 /* AASAccountSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA3C5A1425C157720004ACD7 /* AASAccountSDK.bundle */; };
-		AA3C5A1825C157720004ACD7 /* AASAccount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3C5A1525C157720004ACD7 /* AASAccount.framework */; };
-		AA3C5A1925C157720004ACD7 /* version.md in Resources */ = {isa = PBXBuildFile; fileRef = AA3C5A1625C157720004ACD7 /* version.md */; };
-		AA5A6082256CBD5B0031CEAA /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A6080256CBD5B0031CEAA /* FBSDKLoginKit.framework */; };
-		AA5A6083256CBD5B0031CEAA /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A6081256CBD5B0031CEAA /* FBSDKCoreKit.framework */; };
 		AA5A6097256CBE870031CEAA /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5A6096256CBE870031CEAA /* File.swift */; };
 		AA5A609F256CD9670031CEAA /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A6092256CBE670031CEAA /* Accelerate.framework */; };
 		AA5A60A2256CD9FA0031CEAA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A609B256CC06D0031CEAA /* libc++.tbd */; };
+		AACFB73E26AFE03900A05418 /* AASAccountSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AACFB73C26AFE03900A05418 /* AASAccountSDK.bundle */; };
+		AACFB73F26AFE03900A05418 /* AASAccount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACFB73D26AFE03900A05418 /* AASAccount.framework */; };
+		AACFB74426AFF87100A05418 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACFB74226AFF87100A05418 /* FBSDKLoginKit.framework */; };
+		AACFB74526AFF87100A05418 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACFB74326AFF87100A05418 /* FBSDKCoreKit.framework */; };
 		AAFC135524C53B69004D4BF7 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAFC134B24C53B69004D4BF7 /* GoogleSignIn.bundle */; };
 		AAFC135624C53B69004D4BF7 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC134C24C53B69004D4BF7 /* GoogleSignInDependencies.framework */; };
 		AAFC135724C53B69004D4BF7 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC134D24C53B69004D4BF7 /* GoogleSignIn.framework */; };
@@ -33,16 +32,15 @@
 		AA3255DE2521BB9E0030E4A5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		AA3255DF2521BBA40030E4A5 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Main.strings; sourceTree = "<group>"; };
 		AA3255E02521BBA50030E4A5 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		AA3C5A1425C157720004ACD7 /* AASAccountSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AASAccountSDK.bundle; sourceTree = "<group>"; };
-		AA3C5A1525C157720004ACD7 /* AASAccount.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AASAccount.framework; sourceTree = "<group>"; };
-		AA3C5A1625C157720004ACD7 /* version.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = version.md; sourceTree = "<group>"; };
-		AA5A6080256CBD5B0031CEAA /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		AA5A6081256CBD5B0031CEAA /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		AA5A608F256CBE2F0031CEAA /* libswiftCore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCore.tbd; path = usr/lib/swift/libswiftCore.tbd; sourceTree = SDKROOT; };
 		AA5A6092256CBE670031CEAA /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		AA5A6095256CBE870031CEAA /* AvidlyAccountDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AvidlyAccountDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		AA5A6096256CBE870031CEAA /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		AA5A609B256CC06D0031CEAA /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		AACFB73C26AFE03900A05418 /* AASAccountSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AASAccountSDK.bundle; sourceTree = "<group>"; };
+		AACFB73D26AFE03900A05418 /* AASAccount.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AASAccount.framework; sourceTree = "<group>"; };
+		AACFB74226AFF87100A05418 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		AACFB74326AFF87100A05418 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		AAFC134B24C53B69004D4BF7 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
 		AAFC134C24C53B69004D4BF7 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
 		AAFC134D24C53B69004D4BF7 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
@@ -71,12 +69,12 @@
 			files = (
 				AA5A60A2256CD9FA0031CEAA /* libc++.tbd in Frameworks */,
 				AA5A609F256CD9670031CEAA /* Accelerate.framework in Frameworks */,
-				AA3C5A1825C157720004ACD7 /* AASAccount.framework in Frameworks */,
+				AACFB73F26AFE03900A05418 /* AASAccount.framework in Frameworks */,
 				BD2669FD222D179900620557 /* AdSupport.framework in Frameworks */,
-				AA5A6083256CBD5B0031CEAA /* FBSDKCoreKit.framework in Frameworks */,
 				BD4DF3EE23AB175600410B7E /* GameKit.framework in Frameworks */,
-				AA5A6082256CBD5B0031CEAA /* FBSDKLoginKit.framework in Frameworks */,
 				AAFC135624C53B69004D4BF7 /* GoogleSignInDependencies.framework in Frameworks */,
+				AACFB74426AFF87100A05418 /* FBSDKLoginKit.framework in Frameworks */,
+				AACFB74526AFF87100A05418 /* FBSDKCoreKit.framework in Frameworks */,
 				AAFC135724C53B69004D4BF7 /* GoogleSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,29 +82,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA3C5A1325C157720004ACD7 /* AASAccount_xcode_1016_1 */ = {
+		AACFB73B26AFE03900A05418 /* AASAccount_xcode_1104_1 */ = {
 			isa = PBXGroup;
 			children = (
-				AA3C5A1425C157720004ACD7 /* AASAccountSDK.bundle */,
-				AA3C5A1525C157720004ACD7 /* AASAccount.framework */,
-				AA3C5A1625C157720004ACD7 /* version.md */,
+				AACFB73C26AFE03900A05418 /* AASAccountSDK.bundle */,
+				AACFB73D26AFE03900A05418 /* AASAccount.framework */,
 			);
-			path = AASAccount_xcode_1016_1;
+			path = AASAccount_xcode_1104_1;
 			sourceTree = "<group>";
 		};
-		AA5A607F256CBD5B0031CEAA /* Facebook-8.1.0 */ = {
+		AACFB74126AFF87100A05418 /* Facebook-9.0.1 */ = {
 			isa = PBXGroup;
 			children = (
-				AA5A6080256CBD5B0031CEAA /* FBSDKLoginKit.framework */,
-				AA5A6081256CBD5B0031CEAA /* FBSDKCoreKit.framework */,
+				AACFB74226AFF87100A05418 /* FBSDKLoginKit.framework */,
+				AACFB74326AFF87100A05418 /* FBSDKCoreKit.framework */,
 			);
-			path = "Facebook-8.1.0";
+			path = "Facebook-9.0.1";
 			sourceTree = "<group>";
 		};
 		AAFC134724C53B69004D4BF7 /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
-				AA5A607F256CBD5B0031CEAA /* Facebook-8.1.0 */,
+				AACFB74126AFF87100A05418 /* Facebook-9.0.1 */,
 				AAFC134A24C53B69004D4BF7 /* GoogleSDK-5.0.2 */,
 			);
 			path = 3rd;
@@ -125,7 +122,7 @@
 		BD2669BF222D16CB00620557 = {
 			isa = PBXGroup;
 			children = (
-				AA3C5A1325C157720004ACD7 /* AASAccount_xcode_1016_1 */,
+				AACFB73B26AFE03900A05418 /* AASAccount_xcode_1104_1 */,
 				AAFC134724C53B69004D4BF7 /* 3rd */,
 				BD2669CA222D16CB00620557 /* AvidlyAccountDemo */,
 				BD2669C9222D16CB00620557 /* Products */,
@@ -239,8 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD2669D8222D16CD00620557 /* LaunchScreen.storyboard in Resources */,
-				AA3C5A1925C157720004ACD7 /* version.md in Resources */,
-				AA3C5A1725C157720004ACD7 /* AASAccountSDK.bundle in Resources */,
+				AACFB73E26AFE03900A05418 /* AASAccountSDK.bundle in Resources */,
 				BD2669D5222D16CD00620557 /* Assets.xcassets in Resources */,
 				BD2669D3222D16CB00620557 /* Main.storyboard in Resources */,
 				AAFC135524C53B69004D4BF7 /* GoogleSignIn.bundle in Resources */,
@@ -418,9 +414,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/3rd/GoogleSDK-5.0.2",
-					"$(PROJECT_DIR)/3rd/Facebook-8.1.0",
-					"$(PROJECT_DIR)/AASAccount_xcode_1015_2",
-					"$(PROJECT_DIR)/AASAccount_xcode_1016_1",
+					"$(PROJECT_DIR)/AASAccount_xcode_1104_1",
+					"$(PROJECT_DIR)/3rd/Facebook-9.0.1",
 				);
 				INFOPLIST_FILE = AvidlyAccountDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -433,7 +428,7 @@
 					"$(PROJECT_DIR)/AvidlyAccountDemo/AccountSDK",
 					"$(SDKROOT)/usr/lib/swift",
 				);
-				MARKETING_VERSION = 1.0.15;
+				MARKETING_VERSION = 1.1.0.4;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.upltv.account;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -458,9 +453,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/3rd/GoogleSDK-5.0.2",
-					"$(PROJECT_DIR)/3rd/Facebook-8.1.0",
-					"$(PROJECT_DIR)/AASAccount_xcode_1015_2",
-					"$(PROJECT_DIR)/AASAccount_xcode_1016_1",
+					"$(PROJECT_DIR)/AASAccount_xcode_1104_1",
+					"$(PROJECT_DIR)/3rd/Facebook-9.0.1",
 				);
 				INFOPLIST_FILE = AvidlyAccountDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -473,7 +467,7 @@
 					"$(PROJECT_DIR)/AvidlyAccountDemo/AccountSDK",
 					"$(SDKROOT)/usr/lib/swift",
 				);
-				MARKETING_VERSION = 1.0.15;
+				MARKETING_VERSION = 1.1.0.4;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.upltv.account;
 				PRODUCT_NAME = "$(TARGET_NAME)";
