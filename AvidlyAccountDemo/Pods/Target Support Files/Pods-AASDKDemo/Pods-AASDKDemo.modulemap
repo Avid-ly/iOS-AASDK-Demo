@@ -1,0 +1,6 @@
+module Pods_AASDKDemo {
+  umbrella header "Pods-AASDKDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

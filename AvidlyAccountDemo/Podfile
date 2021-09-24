@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/Avid-ly/iOS-CocoaPods-Spec.git'
+
+platform :ios, '10.0'
+
+target 'AASDKDemo' do
+
+# AASDK
+pod 'AASDK', '1.1.0.5'
+
+# TASDK
+pod 'TASDK', '4.1.0.4'
+
+end

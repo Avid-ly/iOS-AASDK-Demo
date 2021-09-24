@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-AASDKDemo/Pods-AASDKDemo-resources.sh
+${PODS_ROOT}/AASDK/Framework/AASDK/AASAccountSDK.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit/FacebookSDKStrings.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/GoogleSignIn/GoogleSignIn.bundle
