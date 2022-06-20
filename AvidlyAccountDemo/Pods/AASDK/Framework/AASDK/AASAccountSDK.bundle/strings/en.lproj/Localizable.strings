@@ -129,3 +129,12 @@
 "aas_string_go_to_verify" = "Verify";
 "aas_string_verify_email_subtitle" = "Please enter a secure email address that needs to be authenticated";
 "aas_change" = "Change";
+"aas_string_delete_account" = "Delete Account";
+"aas_string_apply_delete_account" = "Apply for Cancellation";
+"aas_string_giveup_delete_account" = "Give up";
+"aas_string_delete_account_text" = "In order to ensure the safety of your account and property, please read and agree to the following matters before submitting the cancellation application.\n\n1. Once the account is cancelled, you will not be able to log in and use the game account, and Unrecoverable. Your personal information under the game account will be deleted or anonymized. You will no longer be able to retrieve your personal information, and you have no right to ask us to retrieve it.\n\n2. This account is used in this game All income or interests that have been generated during the period and may be generated in the future will be cleared. Accordingly, we also specially remind you to ensure that your game income or interests have been properly handled before you cancel your account of this game. Otherwise, after the account is cancelled, we will You have the right to clear all the income or rights under the account, so you are responsible for the consequences. The aforementioned game income or rights include but are not limited to all the remaining game virtual currency, virtual props and other virtual items and Value-added services.";
+"aas_string_delete_account_confirm" = "After logout, all data in the account will be cleared, this operation cannot be restored, please confirm whether to logout?";
+"aas_string_giveup_delete_succeed" = "Account cancelled successfully";
+"aas_string_giveup_delete_fail" = "Account Cancellation Failed";
+"aas_string_giveup_delete_back_usercenter" = "Back to User Center";
+"aas_string_account_is_deleted" = "Account has been deleted";

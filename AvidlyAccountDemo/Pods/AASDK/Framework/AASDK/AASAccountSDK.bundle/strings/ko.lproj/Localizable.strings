@@ -129,3 +129,12 @@
 "aas_string_go_to_verify" = "검증";
 "aas_string_verify_email_subtitle" = "인증이 필요한 보안 이메일 주소를 입력하세요";
 "aas_change" = "변화";
+"aas_string_delete_account" = "계정 삭제";
+"aas_string_apply_delete_account" = "취소 신청";
+"aas_string_giveup_delete_account" = "포기";
+"aas_string_delete_account_text" = "계정과 자산의 안전을 위해 해지 신청서를 제출하기 전에 다음 사항을 읽고 동의하시기 바랍니다.\n\n1. 계정이 해지되면 로그인할 수 없습니다. 그리고 게임 계정을 사용하고 복구할 수 없습니다. 게임 계정에 있는 귀하의 개인 정보는 삭제되거나 익명으로 처리됩니다. 귀하는 더 이상 개인 정보를 검색할 수 없으며 당사에 검색을 요청할 권리가 없습니다.\n\n2 . 이 계정은 이 게임에서 사용됩니다. 해당 기간 동안 생성된 모든 수입 또는 이익은 청산됩니다.따라서 우리는 또한 귀하의 게임 수입 또는 이익이 이전에 적절하게 처리되었는지 확인하도록 특별히 상기시킵니다. 귀하는 이 게임의 계정을 취소합니다. 그렇지 않으면 계정이 취소된 후 귀하는 계정에 대한 모든 수입 또는 권리를 취소할 권리가 있으므로 결과에 대한 책임은 귀하에게 있습니다. 앞서 언급한 게임 수입 또는 권리는 다음을 포함하지만 다음과 같습니다. 남아 있는 모든 게임 가상 화폐, 가상 소품 및 기타 가상 아이템 및 부가 가치 서비스에 국한되지 않습니다.";
+"aas_string_delete_account_confirm" = "로그아웃 후 계정의 모든 데이터가 지워지며 이 작업은 복원할 수 없습니다. 로그아웃할지 여부를 확인하십시오.";
+"aas_string_giveup_delete_succeed" = "계정이 성공적으로 취소되었습니다";
+"aas_string_giveup_delete_fail" = "계정 취소 실패";
+"aas_string_giveup_delete_back_usercenter" = "사용자 센터로 돌아가기";
+"aas_string_account_is_deleted" = "계정이 삭제되었습니다.";

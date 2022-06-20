@@ -129,3 +129,12 @@
 "aas_string_go_to_verify" = "去认证";
 "aas_string_verify_email_subtitle" = "请输入需要认证的安全邮箱";
 "aas_change" = "变更";
+"aas_string_delete_account" = "注销账户";
+"aas_string_apply_delete_account" = "申请注销";
+"aas_string_giveup_delete_account" = "放弃";
+"aas_string_delete_account_text" = "为保证您的账户和财产安全，请您仔细阅读并同意以下事项后，再提交注销申请。\n\n1. 该账户一旦注销，您将无法登录、使用该游戏账户，且无法恢复。您该游戏账户下的个人信息将会被删除或匿名化处理。您将无法再找回您的个人信息，也无权要求我们找回。\n\n2.该账户在本游戏使用期间已产生及未来可能产生的所有收益或权益将会清除。据此，也特别提示您，在您注销本游戏账户前请确保已妥善处理您的游戏收益或权益。否则，账号注销后，我们有权对该账户下的全部收益或权益做清除处理，因此产生的后果由您自行承担。前述游戏收益或权益包括但不限于该账户内剩余的所有游戏虚拟货币、虚拟道具以及其他虚拟物品和增值服务。";
+"aas_string_delete_account_confirm" = "注销后，该账户内所有数据将被清空，此操作无法恢复，请确认是否注销？";
+"aas_string_giveup_delete_succeed" = "账户注销成功";
+"aas_string_giveup_delete_fail" = "账户注销失败";
+"aas_string_giveup_delete_back_usercenter" = "返回用户中心";
+"aas_string_account_is_deleted" = "帐户已被注销";

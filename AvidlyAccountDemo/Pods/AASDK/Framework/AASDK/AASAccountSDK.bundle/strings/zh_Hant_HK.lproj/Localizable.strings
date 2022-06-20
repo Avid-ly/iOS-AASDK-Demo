@@ -129,3 +129,12 @@
 "aas_string_go_to_verify" = "去認證";
 "aas_string_verify_email_subtitle" = "請輸入需要認證的安全郵箱";
 "aas_change" = "變更";
+"aas_string_delete_account" = "註銷賬戶";
+"aas_string_apply_delete_account" = "申請註銷";
+"aas_string_giveup_delete_account" = "放棄";
+"aas_string_delete_account_text" = "為保證您的賬戶和財產安全，請您仔細閱讀並同意以下事項後，再提交註銷申請。\n\n1. 該賬戶一旦註銷，您將無法登錄、使用該遊戲賬戶，且無法恢復。您該遊戲賬戶下的個人信息將會被刪除或匿名化處理。您將無法再找回您的個人信息，也無權要求我們找回。\n\n2.該賬戶在本遊戲使用期間已產生及未來可能產生的所有收益或權益將會清除。據此，也特別提示您，在您註銷本遊戲賬戶前請確保已妥善處理您的遊戲收益或權益。否則，賬號註銷後，我們有權對該賬戶下的全部收益或權益做清除處理，因此產生的後果由您自行承擔。前述遊戲收益或權益包括但不限於該賬戶內剩餘的所有遊戲虛擬貨幣、虛擬道具以及其他虛擬物品和增值服務。";
+"aas_string_delete_account_confirm" = "註銷後，該賬戶內所有數據將被清空，此操作無法恢復，請確認是否註銷？";
+"aas_string_giveup_delete_succeed" = "賬戶註銷成功";
+"aas_string_giveup_delete_fail" = "賬戶註銷失敗";
+"aas_string_giveup_delete_back_usercenter" = "返回用戶中心";
+"aas_string_account_is_deleted" = "帳戶已被註銷";

@@ -137,7 +137,7 @@
 				BD2669C4222D16CB00620557 /* Sources */,
 				BD2669C5222D16CB00620557 /* Frameworks */,
 				BD2669C6222D16CB00620557 /* Resources */,
-				4BD5F9747D162315D82B9264 /* [CP] Copy Pods Resources */,
+				467A7C0F75CC51A243E44A9A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,7 +204,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4BD5F9747D162315D82B9264 /* [CP] Copy Pods Resources */ = {
+		467A7C0F75CC51A243E44A9A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -411,7 +411,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8Q98XXS96P;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/3rd/GoogleSDK-5.0.2",
@@ -454,7 +454,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8Q98XXS96P;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/3rd/GoogleSDK-5.0.2",

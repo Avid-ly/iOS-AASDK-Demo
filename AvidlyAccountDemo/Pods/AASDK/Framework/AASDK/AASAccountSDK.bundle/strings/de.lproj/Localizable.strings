@@ -129,3 +129,12 @@
 "aas_string_go_to_verify" = "überprüfen";
 "aas_string_verify_email_subtitle" = "Bitte geben Sie eine sichere E-Mail-Adresse ein, die authentifiziert werden muss";
 "aas_change" = "Veränderung";
+"aas_string_delete_account" = "Konto löschen";
+"aas_string_apply_delete_account" = "Aufhebung beantragen";
+"aas_string_giveup_delete_account" = "aufgeben";
+"aas_string_delete_account_text" = "Um die Sicherheit Ihres Kontos und Eigentums zu gewährleisten, lesen Sie bitte die folgenden Punkte und stimmen Sie ihnen zu, bevor Sie den Kündigungsantrag einreichen.\n\n1. Sobald das Konto gekündigt wurde, können Sie sich nicht mehr anmelden und das Spielkonto verwenden, und nicht wiederherstellbar. Ihre personenbezogenen Daten unter dem Spielkonto werden gelöscht oder anonymisiert. Sie können Ihre personenbezogenen Daten nicht mehr abrufen und haben kein Recht, uns zu bitten, sie abzurufen.\n\n2 Dieses Konto wird in diesem Spiel verwendet. Alle Einnahmen oder Zinsen, die während des Zeitraums generiert wurden und möglicherweise in der Zukunft generiert werden, werden verrechnet. Dementsprechend erinnern wir Sie auch ausdrücklich daran, sicherzustellen, dass Ihre Spieleinnahmen oder Zinsen zuvor ordnungsgemäß behandelt wurden Sie kündigen Ihr Konto dieses Spiels. Andernfalls haben wir nach der Kündigung des Kontos das Recht, alle Einkünfte oder Rechte aus dem Konto zu löschen, sodass Sie für die Folgen verantwortlich sind. Die oben genannten Spieleinnahmen oder -rechte umfassen, aber sind nicht beschränkt auf die gesamte restliche virtuelle Währung des Spiels, virtuelle Requisiten und andere virtuelle Gegenstände und Mehrwertdienste.";
+"aas_string_delete_account_confirm" = "Nach der Abmeldung werden alle Daten im Konto gelöscht, dieser Vorgang kann nicht wiederhergestellt werden, bitte bestätigen Sie, ob Sie sich abmelden möchten?";
+"aas_string_giveup_delete_succeed" = "Konto erfolgreich gekündigt";
+"aas_string_giveup_delete_fail" = "Kontolöschung fehlgeschlagen";
+"aas_string_giveup_delete_back_usercenter" = "Zurück zum Benutzerzentrum";
+"aas_string_account_is_deleted" = "Konto wurde gelöscht";
