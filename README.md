@@ -1,1 +1,1 @@
-具体使用问题请[参考](http://doc.gamehaus.com/sdk/#/aasdk/)
+具体使用文档请[参考](http://doc.gamehaus.com/sdk/#/aasdk/)
