@@ -17,6 +17,7 @@ NSString *defaultProductID = @"1000152";
     
     UIButton *_loginButton;
     UIButton *_covertLoginButton;
+    UIButton *_unAwareLoginButton;
     UIButton *_getFacebookTokenButton;
     UIButton *_userInfoButton;
     UIButton *_testGameCenter;
@@ -49,7 +50,7 @@ NSString *defaultProductID = @"1000152";
     _loginButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     _loginButton.backgroundColor = [UIColor orangeColor];
     _loginButton.frame = CGRectMake(x, y, width, height);
-    [_loginButton setTitle:@"用户登录" forState:UIControlStateNormal];
+    [_loginButton setTitle:@"登录(显性)(可选择或切换登录方式)" forState:UIControlStateNormal];
     [_loginButton addTarget:self action:@selector(loginClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_loginButton];
     y = _loginButton.frame.origin.y + _loginButton.frame.size.height + interval;
@@ -57,10 +58,18 @@ NSString *defaultProductID = @"1000152";
     _covertLoginButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     _covertLoginButton.backgroundColor = [UIColor orangeColor];
     _covertLoginButton.frame = CGRectMake(x, y, width, height);
-    [_covertLoginButton setTitle:@"用户登录(隐性)" forState:UIControlStateNormal];
+    [_covertLoginButton setTitle:@"登录(隐性)(首次需选择登录方式)" forState:UIControlStateNormal];
     [_covertLoginButton addTarget:self action:@selector(covertLoginClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_covertLoginButton];
     y = _covertLoginButton.frame.origin.y + _covertLoginButton.frame.size.height + interval;
+    
+    _unAwareLoginButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    _unAwareLoginButton.backgroundColor = [UIColor orangeColor];
+    _unAwareLoginButton.frame = CGRectMake(x, y, width, height);
+    [_unAwareLoginButton setTitle:@"登录(隐性)(首次默认游客登录)" forState:UIControlStateNormal];
+    [_unAwareLoginButton addTarget:self action:@selector(unAwareLoginClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_unAwareLoginButton];
+    y = _unAwareLoginButton.frame.origin.y + _unAwareLoginButton.frame.size.height + interval;
     
     _getFacebookTokenButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     _getFacebookTokenButton.backgroundColor = [UIColor orangeColor];
@@ -164,6 +173,28 @@ NSString *defaultProductID = @"1000152";
         NSLog(@"AASAccountSDK login error:%@",error);
     }];
     [AASAccountSDK loginWithVisible:NO];
+}
+
+- (void)unAwareLoginClick {
+    NSString *pid = defaultProductID;
+    if (_pdtID.text != nil && ![_pdtID.text isEqualToString:@""]) {
+        pid = _pdtID.text;
+    }
+    
+    [AASAccountSDK initSDK:pid];
+    
+    [AASAccountSDK setLoginCallback:^(AASAccountLoginModel * _Nonnull model) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self->_unAwareLoginButton setTitle:[NSString stringWithFormat:@"gameGuestId:%@",model.gameGuestId] forState:UIControlStateNormal];
+        });
+        
+    } errorCallback:^(NSError * _Nonnull error) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self->_unAwareLoginButton setTitle:[NSString stringWithFormat:@"error:%i",(int)error.code] forState:UIControlStateNormal];
+        });
+    }];
+    
+    [AASAccountSDK loginWithUnAware];
 }
 
 -(void)getFacebookLoginedToken {

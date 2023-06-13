@@ -23,13 +23,19 @@
 
 + (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation;
 
-#pragma mark - Login
+#pragma mark - Callback
 
 + (void)setLoginCallback:(void (^)(AASAccountLoginModel *model))succeedCallback errorCallback:(void (^)(NSError *error))errorCallback;
+
++ (void)setBindCallback:(void (^)(AASAccountLoginModel *model))succeedCallback errorCallback:(void (^)(NSError *error))errorCallback;
+
+#pragma mark - Login
 
 + (void)login;
 
 + (void)loginWithVisible:(BOOL)visible; // visible为false，表示自动登录不展示弹窗
+
++ (void)loginWithUnAware;
 
 #pragma mark - UserCenter
 

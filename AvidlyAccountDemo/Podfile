@@ -6,9 +6,9 @@ platform :ios, '10.0'
 target 'AASDKDemo' do
 
 # AASDK
-pod 'AASDK', '2.0.0.3'
+pod 'AASDK', '2.0.0.5'
 
 # TASDK
-pod 'TASDK', '4.1.0.4'
+pod 'TASDK', '4.1.0.8'
 
 end
