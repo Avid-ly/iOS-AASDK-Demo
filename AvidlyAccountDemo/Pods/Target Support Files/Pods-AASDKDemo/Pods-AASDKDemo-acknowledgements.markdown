@@ -26,14 +26,14 @@ THE SOFTWARE.
 
 ## FBAEMKit
 
-Copyright (c) 2014-present, Facebook, Inc. All rights reserved.
+Copyright (c) Meta Platforms, Inc. and affiliates. All rights reserved.
 
 You are hereby granted a non-exclusive, worldwide, royalty-free license to use,
 copy, modify, and distribute this software in source code or binary form for use
 in connection with the web services and APIs provided by Facebook.
 
 As with any software that integrates with the Facebook platform, your use of
-this software is subject to the Facebook Developer Principles and Policies
+this software is subject to the Facebook Platform Policy
 [http://developers.facebook.com/policy/]. This copyright notice shall be
 included in all copies or substantial portions of the software.
 
@@ -47,14 +47,14 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## FBSDKCoreKit
 
-Copyright (c) 2014-present, Facebook, Inc. All rights reserved.
+Copyright (c) Meta Platforms, Inc. and affiliates. All rights reserved.
 
 You are hereby granted a non-exclusive, worldwide, royalty-free license to use,
 copy, modify, and distribute this software in source code or binary form for use
 in connection with the web services and APIs provided by Facebook.
 
 As with any software that integrates with the Facebook platform, your use of
-this software is subject to the Facebook Developer Principles and Policies
+this software is subject to the Facebook Platform Policy
 [http://developers.facebook.com/policy/]. This copyright notice shall be
 included in all copies or substantial portions of the software.
 
@@ -68,14 +68,14 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## FBSDKCoreKit_Basics
 
-Copyright (c) 2014-present, Facebook, Inc. All rights reserved.
+Copyright (c) Meta Platforms, Inc. and affiliates. All rights reserved.
 
 You are hereby granted a non-exclusive, worldwide, royalty-free license to use,
 copy, modify, and distribute this software in source code or binary form for use
 in connection with the web services and APIs provided by Facebook.
 
 As with any software that integrates with the Facebook platform, your use of
-this software is subject to the Facebook Developer Principles and Policies
+this software is subject to the Facebook Platform Policy
 [http://developers.facebook.com/policy/]. This copyright notice shall be
 included in all copies or substantial portions of the software.
 
@@ -89,14 +89,14 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## FBSDKLoginKit
 
-Copyright (c) 2014-present, Facebook, Inc. All rights reserved.
+Copyright (c) Meta Platforms, Inc. and affiliates. All rights reserved.
 
 You are hereby granted a non-exclusive, worldwide, royalty-free license to use,
 copy, modify, and distribute this software in source code or binary form for use
 in connection with the web services and APIs provided by Facebook.
 
 As with any software that integrates with the Facebook platform, your use of
-this software is subject to the Facebook Developer Principles and Policies
+this software is subject to the Facebook Platform Policy
 [http://developers.facebook.com/policy/]. This copyright notice shall be
 included in all copies or substantial portions of the software.
 

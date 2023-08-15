@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,10 @@
 		AA5A6097256CBE870031CEAA /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5A6096256CBE870031CEAA /* File.swift */; };
 		AA5A609F256CD9670031CEAA /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A6092256CBE670031CEAA /* Accelerate.framework */; };
 		AA5A60A2256CD9FA0031CEAA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A609B256CC06D0031CEAA /* libc++.tbd */; };
+		AAAF2F572A8B2B0400869E52 /* FBSDKCoreKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAF2F562A8B2B0400869E52 /* FBSDKCoreKit.xcframework */; };
+		AAAF2F582A8B2B0400869E52 /* FBSDKCoreKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AAAF2F562A8B2B0400869E52 /* FBSDKCoreKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AAAF2F5B2A8B2B1300869E52 /* FBSDKCoreKit_Basics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAF2F5A2A8B2B1300869E52 /* FBSDKCoreKit_Basics.xcframework */; };
+		AAAF2F5C2A8B2B1300869E52 /* FBSDKCoreKit_Basics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AAAF2F5A2A8B2B1300869E52 /* FBSDKCoreKit_Basics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BD2669CD222D16CB00620557 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2669CC222D16CB00620557 /* AppDelegate.m */; };
 		BD2669D0222D16CB00620557 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2669CF222D16CB00620557 /* ViewController.m */; };
 		BD2669D3222D16CB00620557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2669D1222D16CB00620557 /* Main.storyboard */; };
@@ -20,6 +24,21 @@
 		BD2669FD222D179900620557 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2669FC222D179900620557 /* AdSupport.framework */; };
 		BD4DF3EE23AB175600410B7E /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4DF3ED23AB175600410B7E /* GameKit.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AAAF2F592A8B2B0400869E52 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AAAF2F582A8B2B0400869E52 /* FBSDKCoreKit.xcframework in Embed Frameworks */,
+				AAAF2F5C2A8B2B1300869E52 /* FBSDKCoreKit_Basics.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		76688FB9FA986D5DC31B9FE3 /* libPods-AASDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AASDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +56,8 @@
 		AA9EC42F28A9E4BE00EB3A1B /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		AA9EC43028A9E5DC00EB3A1B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		AA9EC43128A9E5DC00EB3A1B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		AAAF2F562A8B2B0400869E52 /* FBSDKCoreKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBSDKCoreKit.xcframework; path = Pods/FBSDKCoreKit/XCFrameworks/FBSDKCoreKit.xcframework; sourceTree = "<group>"; };
+		AAAF2F5A2A8B2B1300869E52 /* FBSDKCoreKit_Basics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBSDKCoreKit_Basics.xcframework; path = Pods/FBSDKCoreKit_Basics/XCFrameworks/FBSDKCoreKit_Basics.xcframework; sourceTree = "<group>"; };
 		AC6BCF164B7EE5110CB03DC1 /* Pods-AASDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AASDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-AASDKDemo/Pods-AASDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		BD2669C8222D16CB00620557 /* AASDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AASDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2669CB222D16CB00620557 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,10 +78,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAAF2F572A8B2B0400869E52 /* FBSDKCoreKit.xcframework in Frameworks */,
 				AA5A60A2256CD9FA0031CEAA /* libc++.tbd in Frameworks */,
 				AA5A609F256CD9670031CEAA /* Accelerate.framework in Frameworks */,
 				BD2669FD222D179900620557 /* AdSupport.framework in Frameworks */,
 				BD4DF3EE23AB175600410B7E /* GameKit.framework in Frameworks */,
+				AAAF2F5B2A8B2B1300869E52 /* FBSDKCoreKit_Basics.xcframework in Frameworks */,
 				15AE415441CBD536E315AAAB /* libPods-AASDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,6 +130,8 @@
 		BD2669FB222D179900620557 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AAAF2F5A2A8B2B1300869E52 /* FBSDKCoreKit_Basics.xcframework */,
+				AAAF2F562A8B2B0400869E52 /* FBSDKCoreKit.xcframework */,
 				AA5A609B256CC06D0031CEAA /* libc++.tbd */,
 				AA5A6092256CBE670031CEAA /* Accelerate.framework */,
 				AA5A608F256CBE2F0031CEAA /* libswiftCore.tbd */,
@@ -138,6 +163,8 @@
 				BD2669C5222D16CB00620557 /* Frameworks */,
 				BD2669C6222D16CB00620557 /* Resources */,
 				467A7C0F75CC51A243E44A9A /* [CP] Copy Pods Resources */,
+				F2F2FC240A1214B858730F42 /* [CP] Embed Pods Frameworks */,
+				AAAF2F592A8B2B0400869E52 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,6 +268,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2F2FC240A1214B858730F42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AASDKDemo/Pods-AASDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AASDKDemo/Pods-AASDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AASDKDemo/Pods-AASDKDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -411,7 +455,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8Q98XXS96P;
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/3rd/GoogleSDK-5.0.2",
@@ -454,7 +498,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8Q98XXS96P;
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/3rd/GoogleSDK-5.0.2",

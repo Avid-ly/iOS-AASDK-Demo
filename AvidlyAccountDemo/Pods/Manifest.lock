@@ -1,29 +1,20 @@
 PODS:
-  - AASDK (2.0.0.5):
-    - AASDK/FBSDKLoginKit (= 2.0.0.5)
-  - AASDK/FBSDKLoginKit (2.0.0.5):
-    - FBSDKLoginKit (= 11.1.0)
-  - FBAEMKit (11.1.0):
-    - FBAEMKit/AEM (= 11.1.0)
-  - FBAEMKit/AEM (11.1.0):
-    - FBSDKCoreKit_Basics (~> 11.1.0)
-  - FBSDKCoreKit (11.1.0):
-    - FBSDKCoreKit/Core (= 11.1.0)
-  - FBSDKCoreKit/Core (11.1.0):
-    - FBAEMKit (~> 11.1.0)
-    - FBSDKCoreKit_Basics (~> 11.1.0)
-  - FBSDKCoreKit_Basics (11.1.0):
-    - FBSDKCoreKit_Basics/Basics (= 11.1.0)
-  - FBSDKCoreKit_Basics/Basics (11.1.0)
-  - FBSDKLoginKit (11.1.0):
-    - FBSDKLoginKit/Login (= 11.1.0)
-  - FBSDKLoginKit/Login (11.1.0):
-    - FBSDKCoreKit (~> 11.1.0)
-    - FBSDKCoreKit_Basics (~> 11.1.0)
+  - AASDK (2.0.0.6):
+    - AASDK/FBSDKLoginKit (= 2.0.0.6)
+  - AASDK/FBSDKLoginKit (2.0.0.6):
+    - FBSDKLoginKit (= 16.1.1)
+  - FBAEMKit (16.1.1):
+    - FBSDKCoreKit_Basics (= 16.1.1)
+  - FBSDKCoreKit (16.1.1):
+    - FBAEMKit (= 16.1.1)
+    - FBSDKCoreKit_Basics (= 16.1.1)
+  - FBSDKCoreKit_Basics (16.1.1)
+  - FBSDKLoginKit (16.1.1):
+    - FBSDKCoreKit (= 16.1.1)
   - TASDK (4.1.0.8)
 
 DEPENDENCIES:
-  - AASDK (= 2.0.0.5)
+  - AASDK (= 2.0.0.6)
   - TASDK (= 4.1.0.8)
 
 SPEC REPOS:
@@ -37,13 +28,13 @@ SPEC REPOS:
     - FBSDKLoginKit
 
 SPEC CHECKSUMS:
-  AASDK: eb8ada0f9f3958eefe8422ae37b1acdea6b1fb2d
-  FBAEMKit: 5c8a8d08e5b2c79628490784883e0fcc75b12615
-  FBSDKCoreKit: 7ccb8b4bb2b5ee2ad94327b774dc23f03509675d
-  FBSDKCoreKit_Basics: 8f978bce195845f609b0ec6b425949d0d24f525b
-  FBSDKLoginKit: d65eb587a9eaa89295338fb0bb3b358bde0b7ae4
+  AASDK: 351528096fb0a15b734ca3a1e7cacdd58cfe64a4
+  FBAEMKit: 78e6d131977b5a34a9f35baba9d397e611cf4268
+  FBSDKCoreKit: 1b76d643eb5d4ce25909c58a412fe5ba400672e1
+  FBSDKCoreKit_Basics: 27185fcaf23c152fa3788eab1e35b75f70906e4b
+  FBSDKLoginKit: de12aec64eef9fe3332d7af1dffc10a3a1a1714a
   TASDK: 65f48f819084b8163f6882d8422a6a13435dd64e
 
-PODFILE CHECKSUM: e4a0505266a6b7dcb367c4c632ef946dbc0aeb02
+PODFILE CHECKSUM: c42e0ebb59c0179aff5c872a80d4e77741046aa6
 
 COCOAPODS: 1.11.2

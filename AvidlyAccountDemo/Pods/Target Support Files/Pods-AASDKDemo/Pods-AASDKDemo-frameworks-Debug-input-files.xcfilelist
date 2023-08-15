@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-AASDKDemo/Pods-AASDKDemo-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/FBAEMKit/FBAEMKit.framework/FBAEMKit
+${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework/FBSDKLoginKit
