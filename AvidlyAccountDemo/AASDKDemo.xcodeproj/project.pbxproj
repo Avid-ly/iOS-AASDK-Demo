@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,9 +12,7 @@
 		AA5A609F256CD9670031CEAA /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A6092256CBE670031CEAA /* Accelerate.framework */; };
 		AA5A60A2256CD9FA0031CEAA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A609B256CC06D0031CEAA /* libc++.tbd */; };
 		AAAF2F572A8B2B0400869E52 /* FBSDKCoreKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAF2F562A8B2B0400869E52 /* FBSDKCoreKit.xcframework */; };
-		AAAF2F582A8B2B0400869E52 /* FBSDKCoreKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AAAF2F562A8B2B0400869E52 /* FBSDKCoreKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AAAF2F5B2A8B2B1300869E52 /* FBSDKCoreKit_Basics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAF2F5A2A8B2B1300869E52 /* FBSDKCoreKit_Basics.xcframework */; };
-		AAAF2F5C2A8B2B1300869E52 /* FBSDKCoreKit_Basics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AAAF2F5A2A8B2B1300869E52 /* FBSDKCoreKit_Basics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BD2669CD222D16CB00620557 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2669CC222D16CB00620557 /* AppDelegate.m */; };
 		BD2669D0222D16CB00620557 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2669CF222D16CB00620557 /* ViewController.m */; };
 		BD2669D3222D16CB00620557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2669D1222D16CB00620557 /* Main.storyboard */; };
@@ -32,8 +30,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AAAF2F582A8B2B0400869E52 /* FBSDKCoreKit.xcframework in Embed Frameworks */,
-				AAAF2F5C2A8B2B1300869E52 /* FBSDKCoreKit_Basics.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,9 +158,9 @@
 				BD2669C4222D16CB00620557 /* Sources */,
 				BD2669C5222D16CB00620557 /* Frameworks */,
 				BD2669C6222D16CB00620557 /* Resources */,
-				467A7C0F75CC51A243E44A9A /* [CP] Copy Pods Resources */,
-				F2F2FC240A1214B858730F42 /* [CP] Embed Pods Frameworks */,
 				AAAF2F592A8B2B0400869E52 /* Embed Frameworks */,
+				1A785F43C997EB9CCCD3F662 /* [CP] Embed Pods Frameworks */,
+				DD7814EB176D4E77B56C2161 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,21 +227,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		467A7C0F75CC51A243E44A9A /* [CP] Copy Pods Resources */ = {
+		1A785F43C997EB9CCCD3F662 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AASDKDemo/Pods-AASDKDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AASDKDemo/Pods-AASDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AASDKDemo/Pods-AASDKDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AASDKDemo/Pods-AASDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AASDKDemo/Pods-AASDKDemo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AASDKDemo/Pods-AASDKDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AE7199F75F63965D932F7B8F /* [CP] Check Pods Manifest.lock */ = {
@@ -270,21 +266,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F2F2FC240A1214B858730F42 /* [CP] Embed Pods Frameworks */ = {
+		DD7814EB176D4E77B56C2161 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AASDKDemo/Pods-AASDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AASDKDemo/Pods-AASDKDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AASDKDemo/Pods-AASDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AASDKDemo/Pods-AASDKDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AASDKDemo/Pods-AASDKDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AASDKDemo/Pods-AASDKDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -463,7 +459,7 @@
 					"$(PROJECT_DIR)/3rd/Facebook-9.0.1",
 				);
 				INFOPLIST_FILE = AASDKDemo/info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,7 +469,7 @@
 					"$(PROJECT_DIR)/AvidlyAccountDemo/AccountSDK",
 					"$(SDKROOT)/usr/lib/swift",
 				);
-				MARKETING_VERSION = 1.1.0.4;
+				MARKETING_VERSION = 2.0.0.7;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"$(inherited)",
@@ -481,6 +477,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.upltv.account;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = com.upltv.account_Development_Profile;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "AASDKDemo/AvidlyAccountDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -506,7 +505,7 @@
 					"$(PROJECT_DIR)/3rd/Facebook-9.0.1",
 				);
 				INFOPLIST_FILE = AASDKDemo/info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -516,7 +515,7 @@
 					"$(PROJECT_DIR)/AvidlyAccountDemo/AccountSDK",
 					"$(SDKROOT)/usr/lib/swift",
 				);
-				MARKETING_VERSION = 1.1.0.4;
+				MARKETING_VERSION = 2.0.0.7;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"$(inherited)",
@@ -524,6 +523,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.upltv.account;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = com.upltv.account_Development_Profile;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "AASDKDemo/AvidlyAccountDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

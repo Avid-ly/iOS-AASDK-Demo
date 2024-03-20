@@ -2,7 +2,8 @@ ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AASDK/Framework/AASDK" "${PODS_ROOT}/FBAEMKit/XCFrameworks" "${PODS_ROOT}/FBSDKCoreKit/XCFrameworks" "${PODS_ROOT}/FBSDKCoreKit_Basics/XCFrameworks" "${PODS_ROOT}/FBSDKLoginKit/XCFrameworks" "${PODS_ROOT}/TASDK/Framework/TASDK" "${PODS_XCFRAMEWORKS_BUILD_DIR}/AASDK" "${PODS_XCFRAMEWORKS_BUILD_DIR}/FBAEMKit" "${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit" "${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit_Basics" "${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKLoginKit" "${PODS_XCFRAMEWORKS_BUILD_DIR}/TASDK"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-LIBRARY_SEARCH_PATHS = $(inherited) "${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
+LD_RUNPATH_SEARCH_PATHS = $(inherited) /usr/lib/swift '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
 OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"resolv" -l"sqlite3" -l"xml2" -l"z" -framework "AASAccount" -framework "AVFoundation" -framework "AdSupport" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreTelephony" -framework "EventKit" -framework "FBAEMKit" -framework "FBSDKCoreKit" -framework "FBSDKCoreKit_Basics" -framework "FBSDKLoginKit" -framework "JavaScriptCore" -framework "MediaPlayer" -framework "MessageUI" -framework "QuartzCore" -framework "Social" -framework "StoreKit" -framework "SystemConfiguration" -framework "TraceAnalysisSDK" -framework "WatchConnectivity" -framework "WebKit"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
