@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/AASAccountSDK.h</key>
 		<data>
-		rUZJDPbHpc92QZFX9dryBqKgWFc=
+		nRlCM+PR2tEEx5ijfXjQquzcNe8=
 		</data>
 		<key>Headers/AASAccountSDKVersion.h</key>
 		<data>
-		C5QMZwAS88AFCMKN+BmG+4m6Kh8=
+		6e/EDicX/RzKqlq/xn0haUWCEP8=
 		</data>
 		<key>Headers/AASEnumDefine.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		G3CM8/kRZI48CAhvDMkoZ0NB5+w=
+		LzzNWVv1Aq+XntylJ0drVHQBd68=
 		</data>
-		<key>version.md</key>
+		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		8AntELbT0YE+FJZBut37/kH3wwk=
+		5c+BQr8s4ycsNBeEicmAlR9kFT8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -46,22 +46,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rUZJDPbHpc92QZFX9dryBqKgWFc=
+			nRlCM+PR2tEEx5ijfXjQquzcNe8=
 			</data>
 			<key>hash2</key>
 			<data>
-			yKPcAL5daaij5aqnRu79KMFEVMHFdecv+cMN7bKrRVw=
+			gxhPPrKe4rCdBTkOEt2z3r0PE8EIsgS8AYu+wvRZ+XA=
 			</data>
 		</dict>
 		<key>Headers/AASAccountSDKVersion.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C5QMZwAS88AFCMKN+BmG+4m6Kh8=
+			6e/EDicX/RzKqlq/xn0haUWCEP8=
 			</data>
 			<key>hash2</key>
 			<data>
-			fsuL4mdCp/1rt3aTRuhqkhPm/u3jnyum+T5gVjF+Eww=
+			KT8pTWC5Bmzf59p6Md1MEs5Zc9UJJFmQTSgw40IQhNI=
 			</data>
 		</dict>
 		<key>Headers/AASEnumDefine.h</key>
@@ -75,15 +75,15 @@
 			7jSARcHV1y02N6wzqqM1g7AN8mjFARA3msRvPM+ge68=
 			</data>
 		</dict>
-		<key>version.md</key>
+		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8AntELbT0YE+FJZBut37/kH3wwk=
+			5c+BQr8s4ycsNBeEicmAlR9kFT8=
 			</data>
 			<key>hash2</key>
 			<data>
-			CiXqODeem25JcfkqmC3dqiC2Obz3JShh/dxItT2dnHo=
+			7SCJbTEY4m62E4HcIJYmgsoV5f9eySnwXWcvnCqahlA=
 			</data>
 		</dict>
 	</dict>

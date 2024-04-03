@@ -1,7 +1,7 @@
 PODS:
-  - AASDK (2.0.0.6):
-    - AASDK/FBSDKLoginKit (= 2.0.0.6)
-  - AASDK/FBSDKLoginKit (2.0.0.6):
+  - AASDK (2.0.0.8):
+    - AASDK/FBSDKLoginKit (= 2.0.0.8)
+  - AASDK/FBSDKLoginKit (2.0.0.8):
     - FBSDKLoginKit (= 15.1.0)
   - FBAEMKit (15.1.0):
     - FBSDKCoreKit_Basics (= 15.1.0)
@@ -14,7 +14,7 @@ PODS:
   - TASDK (4.1.1.4)
 
 DEPENDENCIES:
-  - AASDK (= 2.0.0.6)
+  - AASDK (= 2.0.0.8)
   - TASDK (= 4.1.1.4)
 
 SPEC REPOS:
@@ -28,13 +28,13 @@ SPEC REPOS:
     - FBSDKLoginKit
 
 SPEC CHECKSUMS:
-  AASDK: abc96e64f1c744a56e2665b144b79bedb4d347fd
+  AASDK: c67f9d77d8c042140776d0719bc36aa06198dcad
   FBAEMKit: c7f82b5145d446bcbbcd50485c032689032fc6a2
   FBSDKCoreKit: 7542746fc63a2a38dd6a865eeb54268341f37b83
   FBSDKCoreKit_Basics: 92d6b26c0bed30ab09bbdd96dccaa26e6c9978d1
   FBSDKLoginKit: 4e275d30cf90e92bdf3a7c82857a8642abf23037
   TASDK: 3ea1df22df4a5a9af402cba27d319b041d93dd37
 
-PODFILE CHECKSUM: e15cf80d51ff65f14a5fdc48ff453f46d00eed26
+PODFILE CHECKSUM: 6dee39991af363c891a7b9c863b3f33ebbc796ae
 
 COCOAPODS: 1.15.2
