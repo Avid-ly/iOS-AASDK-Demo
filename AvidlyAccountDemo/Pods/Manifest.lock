@@ -1,20 +1,20 @@
 PODS:
-  - AASDK (2.0.0.8):
-    - AASDK/FBSDKLoginKit (= 2.0.0.8)
-  - AASDK/FBSDKLoginKit (2.0.0.8):
-    - FBSDKLoginKit (= 15.1.0)
-  - FBAEMKit (15.1.0):
-    - FBSDKCoreKit_Basics (= 15.1.0)
-  - FBSDKCoreKit (15.1.0):
-    - FBAEMKit (= 15.1.0)
-    - FBSDKCoreKit_Basics (= 15.1.0)
-  - FBSDKCoreKit_Basics (15.1.0)
-  - FBSDKLoginKit (15.1.0):
-    - FBSDKCoreKit (= 15.1.0)
+  - AASDK (2.0.0.9):
+    - AASDK/FBSDKLoginKit (= 2.0.0.9)
+  - AASDK/FBSDKLoginKit (2.0.0.9):
+    - FBSDKLoginKit (>= 17.0.0)
+  - FBAEMKit (17.0.1):
+    - FBSDKCoreKit_Basics (= 17.0.1)
+  - FBSDKCoreKit (17.0.1):
+    - FBAEMKit (= 17.0.1)
+    - FBSDKCoreKit_Basics (= 17.0.1)
+  - FBSDKCoreKit_Basics (17.0.1)
+  - FBSDKLoginKit (17.0.1):
+    - FBSDKCoreKit (= 17.0.1)
   - TASDK (4.1.1.4)
 
 DEPENDENCIES:
-  - AASDK (= 2.0.0.8)
+  - AASDK (= 2.0.0.9)
   - TASDK (= 4.1.1.4)
 
 SPEC REPOS:
@@ -28,13 +28,13 @@ SPEC REPOS:
     - FBSDKLoginKit
 
 SPEC CHECKSUMS:
-  AASDK: c67f9d77d8c042140776d0719bc36aa06198dcad
-  FBAEMKit: c7f82b5145d446bcbbcd50485c032689032fc6a2
-  FBSDKCoreKit: 7542746fc63a2a38dd6a865eeb54268341f37b83
-  FBSDKCoreKit_Basics: 92d6b26c0bed30ab09bbdd96dccaa26e6c9978d1
-  FBSDKLoginKit: 4e275d30cf90e92bdf3a7c82857a8642abf23037
-  TASDK: 3ea1df22df4a5a9af402cba27d319b041d93dd37
+  AASDK: be7993b358c7c8ca01184381b3934141da3dfda7
+  FBAEMKit: 97eaf41451b49691447df831f7f425229ae64b66
+  FBSDKCoreKit: e34084567d11cfdd4787ace2b1a0255bedf34ade
+  FBSDKCoreKit_Basics: 3d78e5fe00504e5c1aed1c48de0654c3a1565d15
+  FBSDKLoginKit: 9a581053879a1e6fc3fab8ead341c78c6a318255
+  TASDK: 1930e6af5db50f6ab5e23e8d219c8c96c5d4c764
 
-PODFILE CHECKSUM: 6dee39991af363c891a7b9c863b3f33ebbc796ae
+PODFILE CHECKSUM: 1add2f57f6711b66b4de783ec669b1214a8969f7
 
 COCOAPODS: 1.15.2

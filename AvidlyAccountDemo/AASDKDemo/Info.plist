@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>FacebookClientToken</key>
-	<string>d0effbbffde7a9bf9693a5fbb39ccb55</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -21,18 +19,22 @@
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb2079037042150041</string>
+				<string>fb1286146798398167</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>FacebookAppID</key>
-	<string>2079037042150041</string>
+	<string>1286146798398167</string>
+	<key>FacebookClientToken</key>
+	<string>292356403529-p50ab5klt608r3ppfu1cj7t92ubjj413.apps.googleusercontent.com</string>
 	<key>FacebookDisplayName</key>
-	<string>最强三国</string>
+	<string>DreamHomeMatch</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbapi</string>
