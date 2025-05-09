@@ -868,23 +868,6 @@
 			};
 			name = Release;
 		};
-		088C33F0D9BA0760BC0E7F4DD835E4B3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5650DB7CE491CCABC4436938C7C11C8 /* TASDK.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TASDK";
-				IBSC_MODULE = TASDK;
-				INFOPLIST_FILE = "Target Support Files/TASDK/ResourceBundle-TASDK_Privacy-TASDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = TASDK_Privacy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		0B443798AC19F061C455802CA365DE66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FDEA99BC623C286B0268F77631371BEE /* FBSDKCoreKit_Basics.release.xcconfig */;
@@ -942,6 +925,40 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		19324CFB87C8038C80456D37657F1094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3DDBAABA087C083CC80D233C8C81FCD /* TASDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29CCBA5E5B76942C45329D4AFACC3BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3DDBAABA087C083CC80D233C8C81FCD /* TASDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TASDK";
+				IBSC_MODULE = TASDK;
+				INFOPLIST_FILE = "Target Support Files/TASDK/ResourceBundle-TASDK_Privacy-TASDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = TASDK_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1042,24 +1059,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		4E46721DD92A71C19941AC9E75024940 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5650DB7CE491CCABC4436938C7C11C8 /* TASDK.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		59DF4AB3C00AF7CD37950CC5D270C9F9 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1210,26 +1209,26 @@
 			};
 			name = Debug;
 		};
-		A18BCF61D340D830101BED66CDCECF14 /* Debug */ = {
+		8FC7EDB3637F3FC2C42ACA9823E4393F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3DDBAABA087C083CC80D233C8C81FCD /* TASDK.debug.xcconfig */;
+			baseConfigurationReference = D5650DB7CE491CCABC4436938C7C11C8 /* TASDK.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TASDK";
 				IBSC_MODULE = TASDK;
 				INFOPLIST_FILE = "Target Support Files/TASDK/ResourceBundle-TASDK_Privacy-TASDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = TASDK_Privacy;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
-		AF9DF6DC08234A92164AA9F849735D1C /* Debug */ = {
+		937832D843E357F48622866C33915EB5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B10381AD557907AD6816BBF88C9E44E /* AASDK.debug.xcconfig */;
+			baseConfigurationReference = D5650DB7CE491CCABC4436938C7C11C8 /* TASDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1241,17 +1240,18 @@
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		BCCFFE39199F55E0DB00572E651E10D9 /* Debug */ = {
+		AF9DF6DC08234A92164AA9F849735D1C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3DDBAABA087C083CC80D233C8C81FCD /* TASDK.debug.xcconfig */;
+			baseConfigurationReference = 1B10381AD557907AD6816BBF88C9E44E /* AASDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1320,8 +1320,8 @@
 		3D1531B78FE80C4E170980844EBDF203 /* Build configuration list for PBXAggregateTarget "TASDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BCCFFE39199F55E0DB00572E651E10D9 /* Debug */,
-				4E46721DD92A71C19941AC9E75024940 /* Release */,
+				19324CFB87C8038C80456D37657F1094 /* Debug */,
+				937832D843E357F48622866C33915EB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1365,8 +1365,8 @@
 		9AB46BA500D024DD98413021CF9D4BC0 /* Build configuration list for PBXNativeTarget "TASDK-TASDK_Privacy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A18BCF61D340D830101BED66CDCECF14 /* Debug */,
-				088C33F0D9BA0760BC0E7F4DD835E4B3 /* Release */,
+				29CCBA5E5B76942C45329D4AFACC3BC9 /* Debug */,
+				8FC7EDB3637F3FC2C42ACA9823E4393F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

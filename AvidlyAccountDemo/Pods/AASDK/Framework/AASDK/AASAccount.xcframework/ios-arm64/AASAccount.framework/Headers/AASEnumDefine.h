@@ -10,8 +10,6 @@
 #ifndef AASEnumDefine_h
 #define AASEnumDefine_h
 
-#define AAS_USER_SERVICE_AGREEMENT_URL @"https://d5q0hty07mfa4.cloudfront.net/privacy_policy/pp_cn.html"
-
 #define ACCOUNT_MODE_GUEST 1
 #define ACCOUNT_MODE_AAS  2
 #define ACCOUNT_MODE_FACEBOOK  3
